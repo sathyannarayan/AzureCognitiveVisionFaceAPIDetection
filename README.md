@@ -4,6 +4,24 @@ Python project that uses **Azure Face API** to detect faces in images, draw boun
 
 ---
 
+## Sample input and output
+
+The script takes an image, sends it to the Azure Face API, and draws green boxes around each detected face with a label. It also prints attributes (e.g. glasses, blur level, occlusion) for each face.
+
+| Input image | Output image (detected faces) |
+|-------------|-------------------------------|
+| Original photo | Faces detected and annotated with bounding boxes and attributes |
+
+**Input image** — Original photo before processing:
+
+![Input image - face1](samples/input_face1.jpg)
+
+**Output image** — After running the script: each face is outlined with a green rectangle, numbered (Face 1, Face 2, …), and the script prints attributes such as glasses, blur level, and occlusion for each face. The annotated image is saved as `detected_<filename>.jpg`.
+
+![Output image - detected faces](samples/output_detected_face1.jpg)
+
+---
+
 ## What is an Azure AI Vision Service?
 
 - Provides tools to analyze images and videos for extracting information such as objects, text, and descriptions.
