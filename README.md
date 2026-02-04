@@ -1,4 +1,4 @@
-# AzureCognitiveVisionFaceAPIDetection
+# Azure Cognitive Vision FaceAPI for Face Detection
 
 Python project that uses **Azure Face API** to detect faces in images, draw bounding boxes, and report attributes (glasses, blur, occlusion). Output images are saved as `detected_<filename>.jpg`.
 
